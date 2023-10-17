@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a52c323e-d6bc-448f-8a82-94150dbfb2a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestTemplate/config/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestTemplate/factory/FactoryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestTemplate/factory/IRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestTemplate/factory/RequestDELETE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestTemplate/factory/RequestGET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestTemplate/factory/RequestInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestTemplate/factory/RequestPOST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestTemplate/factory/RequestPUT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestTemplate/testSuite/ApiBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestTemplate/testSuite/TodolyTokenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/controls/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/controls/Control.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/controls/Option.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/controls/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/factoryBrowser/Chrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/factoryBrowser/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/factoryBrowser/FactoryBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/factoryBrowser/Firefox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/factoryBrowser/IBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoist/AppPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoist/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoist/SettingsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoly/ItemsSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoly/LoginSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoly/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoly/MenuSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoly/ProfileSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/session/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/testSuite/ProjectItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/testSuite/TodoistBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/testSuite/TodolyBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/testSuite/UpdateProfileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/chrome/LICENSE.chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/chrome/chromedriver.exe" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2WuaDDBHGmNjHqEI04YwHJwYrZt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/enriq/Documents/MyDocuments/Universidad/S6/VPSI-QA/repos/QA-Parcial2/src/test/java/webUITemplate/pages/todoist"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\enriq\Documents\MyDocuments\Universidad\S6\VPSI-QA\repos\QA-Parcial2\src\test\java\webUITemplate\pages\todoist" />
+      <recent name="C:\Users\enriq\Documents\MyDocuments\Universidad\S6\VPSI-QA\repos\QA-Parcial2\src\test\java" />
+      <recent name="C:\Users\enriq\Documents\MyDocuments\Universidad\S6\VPSI-QA\repos\QA-Parcial2\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.TodolyTokenTest.createUpdateDeleteProject">
+    <configuration name="ProjectItemTest.createProjectItemUpdate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;webUITemplate.testSuite.ProjectItemTest.createProjectItemUpdate&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TodolyTokenTest.createUpdateDeleteProject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;apiTestTemplate.testSuite.TodolyTokenTest.createUpdateDeleteProject&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TodolyTokenTest.createUpdateDeleteProject" />
+        <item itemvalue="Gradle.ProjectItemTest.createProjectItemUpdate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a52c323e-d6bc-448f-8a82-94150dbfb2a6" name="Changes" comment="" />
+      <created>1697584798675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697584798675</updated>
+    </task>
+    <servers />
+  </component>
+</project>
