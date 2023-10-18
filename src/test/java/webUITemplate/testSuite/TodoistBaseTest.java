@@ -18,7 +18,7 @@ public class TodoistBaseTest {
     }
     @BeforeEach
     public void open(){
-        Session.getInstance().getBrowser().get("https://todoist.com/app/");
+        Session.getInstance().getBrowser().get("https://todoist.com/");
     }
 
     @Test
