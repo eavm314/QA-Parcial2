@@ -5,12 +5,16 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import webUITemplate.pages.todoist.AppPage;
+import webUITemplate.pages.todoist.LandingPage;
 import webUITemplate.pages.todoist.LoginPage;
+import webUITemplate.pages.todoist.SignUpPage;
 import webUITemplate.session.Session;
 
 public class TodoistBaseTest {
-    LoginPage loginPage = new LoginPage();
-    AppPage appPage = new AppPage();
+    public LandingPage landingPage = new LandingPage();
+    public SignUpPage signUpPage = new SignUpPage();
+    public LoginPage loginPage = new LoginPage();
+    public AppPage appPage = new AppPage();
 
     @AfterEach
     public void close(){

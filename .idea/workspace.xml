@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a52c323e-d6bc-448f-8a82-94150dbfb2a6" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ej1_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ej2_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ej3_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ej4_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoist/LandingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoist/SignUpPage.java" afterDir="false" />
+    <list default="true" id="a52c323e-d6bc-448f-8a82-94150dbfb2a6" name="Changes" comment="Commit - 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoist/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoist/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ej3_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ej3_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoist/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoist/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoist/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/pages/todoist/SignUpPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/webUITemplate/testSuite/TodoistBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUITemplate/testSuite/TodoistBaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +56,7 @@
       <recent name="C:\Users\enriq\Documents\MyDocuments\Universidad\S6\VPSI-QA\repos\QA-Parcial2\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Ej1_Test.testing">
+  <component name="RunManager" selected="Gradle.Ej3_Test.testing">
     <configuration name="Ej1_Test.testing" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -75,6 +71,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;Ej1_Test.testing&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Ej3_Test.testing" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Ej3_Test.testing&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -135,6 +155,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Ej3_Test.testing" />
         <item itemvalue="Gradle.Ej1_Test.testing" />
         <item itemvalue="Gradle.TodolyTokenTest.createUpdateDeleteProject" />
         <item itemvalue="Gradle.ProjectItemTest.createProjectItemUpdate" />
@@ -158,11 +179,20 @@
       <option name="project" value="LOCAL" />
       <updated>1697585627621</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit - 1">
+      <option name="closed" value="true" />
+      <created>1697667034711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697667034711</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Commit - 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit - 1" />
   </component>
 </project>
