@@ -32,11 +32,22 @@ public class Ej3_Test extends TodoistBaseTest {
         Thread.sleep(1000);
         signUpPage.launchButton.click();
 
-        Assertions.assertTrue(appPage.profileButton.isControlDisplayed(),
+        appPage.dismissButton.click();
+
+        Assertions.assertTrue(appPage.todayTitle.isControlDisplayed(),
                 "Error: No se pudo crear la cuenta");
     }
 
     private void createProject(){
+        String randomProjectName = "Project " + rnd.nextInt();
 
+        projectsSection.projectsButton.click();
+        projectsSection.addProjectButton.click();
+
+        projectsSection.nameInput.setText(randomProjectName);
+        projectsSection.addButton.click();
+
+        Assertions.assertTrue(appPage.getProjectTitle(randomProjectName).isControlDisplayed(),
+                "Error: No se pudo crear el projecto");
     }
 }

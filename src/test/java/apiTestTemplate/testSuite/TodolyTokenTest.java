@@ -26,20 +26,6 @@ public class TodolyTokenTest extends ApiBaseTest {
         deleteProject(idProject);
     }
 
-    private void authenticate() {
-        requestInfo.setBasicAuthNeeded(true)
-            .setUrl(Configuration.host + "/api/authentication/token.json");
-
-        response = FactoryRequest.make(get).send(requestInfo);
-        response.then().statusCode(200).
-                body("UserEmail", equalTo(Configuration.user));
-
-        String token = response.getBody().path("TokenString").toString();
-
-        requestInfo.addHeader("Token", token)
-                .setBasicAuthNeeded(false);
-    }
-
     private void createProject(JSONObject body) {
         requestInfo.setUrl(Configuration.host + "/api/projects.json")
                 .setBody(body.toString());

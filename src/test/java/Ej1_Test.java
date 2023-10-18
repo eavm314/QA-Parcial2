@@ -45,20 +45,6 @@ public class Ej1_Test extends ApiBaseTest {
                 .body("FullName", equalTo(body.get("FullName")));
     }
 
-    private void authenticate() {
-        requestInfo.setBasicAuthNeeded(true)
-                .setUrl(Configuration.host + "/api/authentication/token.json");
-
-        response = FactoryRequest.make(get).send(requestInfo);
-        response.then().statusCode(200).
-                body("UserEmail", equalTo(Configuration.user));
-
-        String token = response.getBody().path("TokenString").toString();
-
-        requestInfo.addHeader("Token", token)
-                .setBasicAuthNeeded(false);
-    }
-
     private void createProject() {
         String randomContent = "Project " + rnd.nextInt();
 
